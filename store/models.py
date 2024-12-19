@@ -30,7 +30,7 @@ class Category(models.Model):
         """
         String representation of the category.
         """
-        return f"Category: {self.name}"
+        return f" {self.name}"
 
     class Meta:
         verbose_name_plural = 'Categories'
